@@ -1,0 +1,21 @@
+{
+  "name": "browserify-esmify-example",
+  "version": "0.0.1",
+  "description": "Example of browserify and esmify",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris White <cxwembedded@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "spin.js": "^4.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "esmify": "^1.2.0",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
