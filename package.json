@@ -1,6 +1,6 @@
 {
   "name": "browserify-esmify-example",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Example of browserify and esmify",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris White <cxwembedded@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cxw42/browserify-esmify-example.git"
+  },
   "license": "MIT",
   "dependencies": {
+    "cached-path-relative": "^1.0.2",
     "spin.js": "^4.0.0"
   },
   "devDependencies": {

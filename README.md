@@ -5,9 +5,11 @@ Example of using esmify to support ES6 import syntax in browserify.  Also shows 
 ## Running
 
     npm install
-    npx build
+    npm run build
     
-Then open `example.html` in a browser.
+Then open `example.html` in a browser.  You should see a spinner.  If you
+open the developer console, you will be able to access a window global called
+`Multidex`.
 
 ## License
 
